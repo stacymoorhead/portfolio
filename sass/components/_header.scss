@@ -1,2 +1,36 @@
-/* Scss Document */
+nav {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 15px 0;
+	position: fixed;
+	width: 100%;
+}
 
+.social {
+    width: 40px;
+    height: auto;
+    position: relative;
+    float: right;
+
+}
+
+.socal a {
+
+}
+
+nav a {
+    font-family: $secondary-font;
+    color:#ffffff;
+    text-transform: uppercase;
+    letter-spacing: .25em; 
+    text-decoration: none;
+    transition: .5s background-color;
+ }
+ 
+nav ul {
+     list-style-type: none;
+}
+
+nav ul li {
+     display: block;
+     float: left;
+}

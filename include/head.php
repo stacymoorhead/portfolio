@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Stacy Lauren Designs</title>
 <link href="sass/style.css" rel="stylesheet">
+<link rel="stylesheet" href="css/font-awesome.min.css">
 <!-- Bootstrap -->
 <link href="css/bootstrap.css" rel="stylesheet">
 
@@ -27,11 +28,10 @@
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-md-6 social">
-                    Testing 123
-                    <a href="http://www.facebook.com/stacy.pezzola"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="http://www.twitter.com/heartshapedfart"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                    <a href="http://www.instagram.com/heartshapedfarts"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <div class="col-md-6">
+                    <div class="social"><a href="http://www.facebook.com/stacy.pezzola"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></div>
+                    <div class="social"><a href="http://www.twitter.com/heartshapedfart"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></div>
+                    <div class="social"><a href="http://www.instagram.com/heartshapedfarts"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></div>
                 </div>    
             </div>
         </nav>

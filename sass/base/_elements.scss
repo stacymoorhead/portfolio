@@ -4,23 +4,33 @@
 	padding: 0px;
 	margin: 0px;
 	z-index: 0;
+	/*background: #CCCCCC;*/
 }
 
 .bg {
 	background: url(../img/bg-01.svg) repeat;
 	background-size: 400px 400px;
-	height: 100vh;
+	height: auto;
 	width: 100%;
 	z-index: 100;
 	padding: 0;
 	margin: 0;
+	position: fixed;
 }
 
-nav {
-	background-color: rgba(0, 0, 0, 0.7);
-	padding: 15px 0;
+.branding {
+	position: relative;
 }
 
-.social {
-	float: right;
+.title {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	margin: 200px 0;
+	color: white;
+}
+
+.logo {
+	Width: 30%;
+	height: 30%;
 }

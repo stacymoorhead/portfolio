@@ -8,20 +8,16 @@ body {
  h1, h2, h3, h4 {
  	font-family: $secondary-font;
  }
- 
-nav a {
-    font-family: $secondary-font;
-    color:#ffffff;
-    text-transform: uppercase;
-    letter-spacing: .25em; 
- }
- 
-nav ul {
-     list-style-type: none;
+
+.title h1 {
+	font-family: $secondary-font;
+	color: white;
+	text-transform: uppercase;
+	letter-spacing: .3em;
 }
 
-nav ul li {
-     display: block;
-     float: left;
+.title p {
+	font-family: $secondary-font;
+	font-size: 1.4em;
 }
 
