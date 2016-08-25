@@ -17,7 +17,8 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body id="gradient">
+<body id="gradient"> 
+<!--<body class="gradient">  TURN BACK ON WHEN DONE TESTING-->  
     <div class="bg">
         <nav class="container-fluid">
             <div class="row">

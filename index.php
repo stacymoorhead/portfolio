@@ -5,22 +5,64 @@
                 <img src="img/logo-01.svg" alt="Stacy Lauren Logo" class="logo">
                 <h1>Stacy Lauren Designs</h1>
                 <p>Innovative graphic design and frontend web development</p>
+                <button class="button">Learn More</button>
             </div>
         </div>
     </section>
-    <section class="row">
-        <div class="col-md-12">
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-            <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-            <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu.</p>
-            <p>In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus.</p>
-            <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,</p>
-
-        </div>
+    <section class="row services">
+        <div class="container">
+            <div class"col-md-12">
+                <h2>Services</h2>
+            </div>
+            <div class="col-md-3">
+                <article class="services-box" id="stationery">
+        		    <span class="fa-stack fa-5x">
+                	    <i class="fa fa-circle fa-stack-2x"></i>
+                	    <i class="fa fa-pagelines fa-stack-1x fa-inverse"></i>
+                	</span>
+        			<h3>Identity</h3>
+        		</article>
+        		<div class="services-hover-box" id="stationery-hover">
+        	       <p>Corporate identity — logo, stationery and business card designs </p>
+        	    </div>
+        	</div>	
+            <div class="col-md-3">
+                <article class="services-box" id="marketing">
+                    <span class="fa-stack fa-5x">
+        	            <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+                    </span>
+        			<h3>Marketing</h3>
+        	    </article>
+        	    <div class="services-hover-box" id="marketing-hover">
+        	        <p>Various print and web marketing collateral, you name it, she'll design it</p>
+        	    </div>
+        	</div>    
+            <div class="col-md-3">
+                <article class="services-box" id="invitations">
+        		    <span class="fa-stack fa-5x">
+        			    <i class="fa fa-circle fa-stack-2x"></i>
+        				    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+        		    </span>
+        			<h3>Invitations</h3>
+        		</article>	
+        		<div class="services-hover-box" id="invitations-hover">
+        		    <p>Custom invitations and annoucements for any event you can think of</p>
+        		</div>
+        	</div>	
+             <div class="col-md-3">
+                <article class="services-box" id="web">
+                    <span class="fa-stack fa-5x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+        	            <i class="fa fa-html5 fa-stack-1x fa-inverse"></i>
+        	        </span>
+        			<h3>Web Design</h3>
+        		</article>
+        		<div class="services-hover-box" id="web-hover">
+        		    <p>HTML 5, CSS3 responsive websites that work  on multiple platforms</p>
+        		</div>
+        	</div>	
+    	</div>	
     </section>
 
 </div><!--closes main div-->

@@ -1,36 +1,94 @@
 #gradient {
-	width: 100%;
-	height: 2000px;
+	width: inherit;
+
 	padding: 0px;
 	margin: 0px;
 	z-index: 0;
 	/*background: #CCCCCC;*/
 }
 
+.gradient {
+	 background: -webkit-gradient(linear, 0 0, 100% 100%, from($yellow), to($pink));
+	 background: -webkit-linear-gradient(left top, $yellow, $lime-green, $green, $teal, $purple, $pink);
+	 background: -moz-linear-gradient(left top, $yellow, $lime-green, $green, $teal, $purple, $pink);
+	 background: -o-linear-gradient(left top, $yellow, $lime-green, $green, $teal, $purple, $pink);
+	 background: linear-gradient(left top, $yellow, $lime-green, $green, $teal, $purple, $pink); /* For Safari 5.1 to 6.0 */ /* For Opera 11.1 to 12.0 */ /* For Firefox 3.6 to 15 */ /* Standard syntax (must be last) */	
+
+}
+
 .bg {
 	background: url(../img/bg-01.svg) repeat;
 	background-size: 400px 400px;
-	height: auto;
-	width: 100%;
+	
+
 	z-index: 100;
 	padding: 0;
 	margin: 0;
-	position: fixed;
+	background-attachment: fixed;
 }
 
 .branding {
 	position: relative;
+	height: 100vh;
 }
 
 .title {
-	width: 100%;
-	height: auto;
+
 	text-align: center;
 	margin: 200px 0;
 	color: white;
 }
 
 .logo {
-	Width: 30%;
-	height: 30%;
+	Width: 25%;
+	height: 25%;
+}
+
+.services {
+	background-color: rgba(0, 0, 0, 0.7);
+	padding: 0 25px 100px 25px;
+	margin-top: 75px;
+}
+
+.services-box {
+	margin: 0;
+	background: white;
+	padding: 15px;
+	box-sizing: border-box;
+	text-align: center;
+	border-radius: 5px;
+	height: 225px;
+}
+
+.services-box h3 {
+	color: $teal;
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+.services-hover-box {
+	opacity: 0;
+	height: 225px;
+	background: rgba(250,250,250,.9);
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	border-radius: 5px;
+	text-align: center;
+	color: $gray;
+	margin: 0 15px;
+	padding: 50px 15px 15px 15px;
+	box-sizing: border-box;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	line-height: 1.6em;
+	font-size: 1.2em;
+	transition: $transition;
+			cursor: pointer;
+}
+
+.services-hover-box:hover {
+	opacity: 1;
+	transition: $transition;
 }

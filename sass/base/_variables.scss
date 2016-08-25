@@ -1,18 +1,26 @@
 // Google Fonts
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,700);
 
 $primary-font:	'Open Sans', Helvetica, Arial, sans-serif;
 $secondary-font:	'Montserrat', Helvetica, Arial, sans-serif;
 
 // Color Palette
-$green:              #5c8A2d;
-$light-green:        #BDFCC9;
-$seafoam:            #00c3A9;
-$blue:               #337ab7;
-$offblack:           #282e33;
-$silver:             #495E67;
-$lightgray:          #e3e3e3;
+//$green:              #5c8A2d;
+//$light-green:        #BDFCC9;
+//$seafoam:            #00c3A9;
+//$blue:               #337ab7;
+//$offblack:           #282e33;
+//$silver:             #495E67;
+//$lightgray:          #e3e3e3;
+
+$yellow:        #FCEE21;
+$lime-green:    #D9E021;
+$green:         #8CC63F;
+$teal:          #00B0B0;
+$purple:        #93278F;
+$pink:          #D4145A;
+$gray:          #626262;
 
 // Media Queries
 $screen-xxs:        'max-width: 480px';

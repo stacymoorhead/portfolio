@@ -3,6 +3,7 @@ nav {
 	padding: 15px 0;
 	position: fixed;
 	width: 100%;
+	z-index: 1000;
 }
 
 .social {
@@ -10,11 +11,14 @@ nav {
     height: auto;
     position: relative;
     float: right;
-
 }
 
-.socal a {
+.social a {
+    color: white;
+}
 
+.socal a:hover {
+    color: $pink;
 }
 
 nav a {
