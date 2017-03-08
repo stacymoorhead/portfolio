@@ -6,20 +6,22 @@ nav {
 	z-index: 1000;
 }
 
-.social {
-    width: 40px;
-    height: auto;
-    position: relative;
-    float: right;
+.nav-container {
+    width: 50%;
+    float: left;
+    padding-left: 50px;
+     @media ($screen-xs) {
+        width: 70%;
+		padding-left: 0;
+	}
 }
 
-.social a {
-    color: white;
-}
-
-.socal a:hover {
-    color: $pink;
-}
+/*.nav {
+    @media ($screen-xs) {
+		width: 100%;
+		margin: 15px auto;
+	}
+}*/
 
 nav a {
     font-family: $secondary-font;
@@ -28,6 +30,22 @@ nav a {
     letter-spacing: .25em; 
     text-decoration: none;
     transition: .5s background-color;
+    @media ($screen-sm) {
+		font-size: .7em;
+		letter-spacing: 0;
+	}
+	@media ($screen-xs) {
+		font-size: .7em;
+		letter-spacing: 0;
+	}
+	@media (max-width: 375px) {
+		font-size: .6em;
+		letter-spacing: 0;
+	}
+ }
+ 
+nav a:hover {
+     color:$pink;
  }
  
 nav ul {
@@ -37,4 +55,48 @@ nav ul {
 nav ul li {
      display: block;
      float: left;
+     margin: 0 15px;
+     @media ($screen-xs) {
+		display: inline;
+		margin: 0px;
+	}
+}
+
+.social {
+    width: 40px;
+    height: auto;
+    position: relative;
+    float: right;
+    box-sizing: border-box;
+    padding-right: 50px;
+    @media ($screen-xs) {
+        width: 30px;
+		margin: 0;
+		padding-right: 0;
+	}
+     /*@media ($screen-xs) {
+		display: inline;
+		float: none;
+		margin: 0 15px;
+	}*/
+}
+
+.social-container {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 5px 15px 0 0;
+    @media ($screen-xs) {
+        width: 30%;
+		padding: 5px 0 0 0;
+	}
+    /* @media ($screen-xs) {
+		width: 200px;
+		margin: 0 auto;
+		text-align: center;
+	}*/
+}
+
+.social a {
+    color: white;
 }

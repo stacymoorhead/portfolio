@@ -1,21 +1,21 @@
 <?php require('include/head.php');?>
     <section class="row branding">
-        <div class="col-md-12">
-            <div class="title">
-                <img src="img/logo-01.svg" alt="Stacy Lauren Logo" class="logo">
-                <h1>Stacy Lauren Designs</h1>
-                <p>Innovative graphic design and frontend web development</p>
-                <button class="button">Learn More</button>
+        <div class="col-md-12 title">
+            <div>
+                <img src="img/logo-01.svg" alt="Stacy Lauren Logo" class="logo fadein500">
+                <h1 class="fadein600">Stacy Lauren Designs</h1>
+                <p class="fadein600">Innovative graphic design and frontend web development</p>
+                <a href="#services"><button class="button fadein700">Learn More</button></a>
             </div>
         </div>
     </section>
-    <section class="row services">
+    <section class="row services" id="services">
         <div class="container">
             <div class"col-md-12">
-                <h2>Services</h2>
+                <h2 class="hideme">Services</h2>
             </div>
             <div class="col-md-3">
-                <article class="services-box" id="stationery">
+                <article class="services-box hideme" id="stationery">
         		    <span class="fa-stack fa-5x">
                 	    <i class="fa fa-circle fa-stack-2x"></i>
                 	    <i class="fa fa-pagelines fa-stack-1x fa-inverse"></i>
@@ -27,7 +27,7 @@
         	    </div>
         	</div>	
             <div class="col-md-3">
-                <article class="services-box" id="marketing">
+                <article class="services-box hideme" id="marketing">
                     <span class="fa-stack fa-5x">
         	            <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
@@ -39,7 +39,7 @@
         	    </div>
         	</div>    
             <div class="col-md-3">
-                <article class="services-box" id="invitations">
+                <article class="services-box hideme" id="invitations">
         		    <span class="fa-stack fa-5x">
         			    <i class="fa fa-circle fa-stack-2x"></i>
         				    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
@@ -51,7 +51,7 @@
         		</div>
         	</div>	
              <div class="col-md-3">
-                <article class="services-box" id="web">
+                <article class="services-box hideme" id="web">
                     <span class="fa-stack fa-5x">
                         <i class="fa fa-circle fa-stack-2x"></i>
         	            <i class="fa fa-html5 fa-stack-1x fa-inverse"></i>
@@ -64,8 +64,5 @@
         	</div>	
     	</div>	
     </section>
+<?php require('include/footer.php');?>
 
-</div><!--closes main div-->
-<?php require('include/scripts.php');?>
-</body>
-</html>

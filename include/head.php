@@ -18,18 +18,18 @@
     <![endif]-->
 </head>
 <body id="gradient"> 
-<!--<body class="gradient">  TURN BACK ON WHEN DONE TESTING-->  
+<!--<body class="gradient"> TURN BACK ON WHEN DONE TESTING-->   
     <div class="bg">
         <nav class="container-fluid">
             <div class="row">
-                <div class="col-md-6">
+                <div class="nav-container">
                     <ul class="nav">
                         <li><a href="">About</a></li>
                         <li><a href="">Work</a></li>
                         <li><a href="">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-md-6">
+                <div class="social-container">
                     <div class="social"><a href="http://www.facebook.com/stacy.pezzola"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></div>
                     <div class="social"><a href="http://www.twitter.com/heartshapedfart"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></div>
                     <div class="social"><a href="http://www.instagram.com/heartshapedfarts"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></div>
